@@ -232,7 +232,7 @@ const ContactSection = () => {
                 </a>
 
                 <a
-                  href="/Sai_Vara_Prasad_Muvvala_Resume.pdf"
+                  href="/sai-visions-nexus/Sai_Vara_Prasad_Muvvala_Resume.pdf"
                   download
                 >
                   <Button
