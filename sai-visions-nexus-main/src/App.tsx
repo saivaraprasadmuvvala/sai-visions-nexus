@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import BinaryCursor from "@/components/BinaryCursor"; // 👈 ADD THIS
+import BinaryCursor from "@/components/BinaryCursor"; // Binary cursor effect
 
 const queryClient = new QueryClient();
 
@@ -15,13 +15,13 @@ const App = () => (
       <Toaster />
       <Sonner />
 
-      {/* Binary cursor effect (global) */}
+      {/* Global binary cursor */}
       <BinaryCursor />
 
-      <BrowserRouter>
+      {/* IMPORTANT: basename for GitHub Pages */}
+      <BrowserRouter basename="/sai-visions-nexus">
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
