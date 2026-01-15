@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://saivaraprasadmuvvala.github.io/sai-visions-nexus",
+  "homepage": "https://saivaraprasadmuvvala.github.io/sai-visions-nexus/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
