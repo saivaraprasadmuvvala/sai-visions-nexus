@@ -232,7 +232,7 @@ const ContactSection = () => {
                 </a>
 
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1BAZFJUWmAYVaMJ72gJZSPv3nKiz8L7IA"
+                  href="Sai_Vara_Prasad_Muvvala_Resume.pdf"
                   download
                 >
                   <Button
