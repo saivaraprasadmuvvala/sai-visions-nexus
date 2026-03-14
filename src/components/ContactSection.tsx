@@ -232,15 +232,14 @@ const ContactSection = () => {
                 </a>
 
                 <a
-                  href="https://saivaraprasadmuvvala.github.io/sai-visions-nexus/Sai_Vara_Prasad_Muvvala_Resume.pdf"
-                  download
+                 href="/sai-visions-nexus/Sai_Vara_Prasad_Muvvala_Resume.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer"
                 >
-                  <Button
-                    variant="outline" className="w-full justify-start mb-3"
-                  >
-                    <Mail size={18} className="mr-3" />
-                    Download Resume
-                  </Button>
+                 <Button variant="outline" className="w-full justify-start mb-3">
+                   <Mail size={18} className="mr-3" />
+                   Download Resume
+                 </Button>
                 </a>
 
 
